@@ -1,0 +1,83 @@
+class Node:
+    def __init__(self, pesanan):
+        self.pesanan = pesanan
+        self.next = None
+
+
+class LinkedList:
+    def __init__(self):
+        self.head = None
+
+    def tambah_pesanan(self, pesanan):
+        new_node = Node(pesanan)
+
+        if self.head is None:
+            self.head = new_node
+        else:
+            temp = self.head
+            while temp.next:
+                temp = temp.next
+            temp.next = new_node
+
+        print(f"Pesanan '{pesanan}' ditambahkan.")
+
+    def tampilkan_pesanan(self):
+        if self.head is None:
+            print("Belum ada pesanan.")
+            return
+
+        print("\nDaftar Pesanan:")
+        temp = self.head
+        no = 1
+        while temp:
+            print(f"{no}. {temp.pesanan}")
+            temp = temp.next
+            no += 1
+
+    def proses_pesanan(self):
+        if self.head is None:
+            print("Tidak ada pesanan.")
+        else:
+            print(f"Pesanan '{self.head.pesanan}' sedang diproses.")
+            self.head = self.head.next
+
+
+def menu():
+    print("\n=== Sistem Pesanan Makanan ===")
+    print("1. Tambah pesanan")
+    print("2. Tampilkan pesanan")
+    print("3. Proses pesanan pertama")
+    print("4. Keluar")
+
+
+def main():
+    daftar = LinkedList()
+
+    while True:
+        menu()
+        try:
+            pilihan = int(input("Pilih menu: "))
+        except ValueError:
+            print("Input harus angka!")
+            continue
+
+        if pilihan == 1:
+            pesanan = input("Masukkan nama makanan: ")
+            daftar.tambah_pesanan(pesanan)
+
+        elif pilihan == 2:
+            daftar.tampilkan_pesanan()
+
+        elif pilihan == 3:
+            daftar.proses_pesanan()
+
+        elif pilihan == 4:
+            print("Program selesai.")
+            break
+
+        else:
+            print("Pilihan tidak valid!")
+
+
+if __name__ == "__main__":
+    main()
