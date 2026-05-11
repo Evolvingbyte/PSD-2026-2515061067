@@ -44,10 +44,6 @@ Mengecek apakah nilai pada indeks awal (low) dan indeks akhir (high) sama.
 Kondisi ini penting untuk menghindari pembagian dengan nol pada rumus interpolation search:
 
 
-(target - data[low]) / (data[high] - data[low])  
-Jika data[high sama dengan data[low], maka penyebut bernilai 0 dan program akan error.
-
-
 if data[low] == target:  
 Jika semua nilai dalam rentang sama, program mengecek apakah nilai tersebut sama dengan target yang dicari.
 
@@ -217,6 +213,7 @@ User mencari NPM terakhir yaitu 2515061099. Algoritma langsung memperkirakan pos
 
 
 ## Link Video Presentasi YouTube
+https://youtu.be/6g59e9ac-GQ
 
 
 
