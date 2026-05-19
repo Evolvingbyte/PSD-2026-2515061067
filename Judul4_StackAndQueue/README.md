@@ -268,12 +268,90 @@ Menjalankan fungsi utama program.
 
 
 ## Output Program
-
+<img width="439" height="859" alt="image" src="https://github.com/user-attachments/assets/91383a0a-d4a8-4969-b5d3-e49115f3c97c" /><br><br>
+<img width="408" height="739" alt="image" src="https://github.com/user-attachments/assets/5cc2de40-8b7a-4cb1-a666-05bb9c6b6947" /><br><br>
+<img width="414" height="840" alt="image" src="https://github.com/user-attachments/assets/0fc9f8df-09dd-4096-a06e-c2f853035d03" /><br><br>
+<img width="368" height="183" alt="image" src="https://github.com/user-attachments/assets/0e375e01-a7f5-40f7-b9c1-234aebd63d4b" />
 
 
 ## Penjelasan Output
+Saat program dijalankan akan muncul  
+=== SISTEM ANTRIAN SPBU ===  
+1. Kendaraan Masuk  
+2. Kendaraan Selesai  
+3. Lihat Antrian Depan  
+4. Tampilkan Semua Antrian  
+5. Keluar  
+Pilih menu: ...  
+<img width="384" height="208" alt="image" src="https://github.com/user-attachments/assets/1b7649bb-61c3-4717-b4e5-058513807b17" /><br> 
+Disini saya menginputkan atau memilih pilihan 1, dan sistem menampilkan Masukkan nama/plat kendaraan:...  
+lalu saya menginputkan Motor Revo  
+lalu sistem menampilkan Kendaraan Motor Revo masuk Antrian  
+<br><br>   
+  
+<img width="418" height="211" alt="image" src="https://github.com/user-attachments/assets/34021bc3-e84d-4b86-aa87-791c9976d175" /><br>
+Lalu saya menginputkan atau memilih lagi pilihan 1, dan sistem menampilkan Masukkan nama/plat kendaraan:...  
+lalu saya menginputkan Motor Vario    
+lalu sistem menampilkan Kendaraan Motor Vario masuk Antrian  
+<br><br>   
+
+<img width="414" height="213" alt="image" src="https://github.com/user-attachments/assets/8d6223c0-e6b6-4e31-9eea-35985e857bd1" /><br>
+Lalu saya menginputkan atau memilih lagi pilihan 1, dan sistem menampilkan Masukkan nama/plat kendaraan:...  
+lalu saya menginputkan Motor Supra-X      
+lalu sistem menampilkan Kendaraan Motor Supra-X masuk Antrian  
+<br><br>   
+
+<img width="357" height="201" alt="image" src="https://github.com/user-attachments/assets/dd4fda7f-f7ac-488a-8ea1-3be5c02e4727" /><br>
+Lalu saya menginputkan atau memilih lagi pilihan 3, dan sistem menampilkan  
+Kendaraan paling depan: Motor Revo
+<br><br>
+
+<img width="351" height="283" alt="image" src="https://github.com/user-attachments/assets/145f9531-d946-4e05-a51c-39ac4d1ecbd1" /><br>
+Lalu saya menginputkan atau memilih lagi pilihan 4, dan sistem menampilkan  
+Daftar Antrian kendaraan:
+- Motor Revo
+- Motor Vario
+- Motor Supra-X  
+<br><br>
+
+<img width="406" height="197" alt="image" src="https://github.com/user-attachments/assets/764f7f80-0235-4357-9361-150e2afabfb4" /><br>
+Lalu saya menginputkan atau memilih lagi pilihan 2, dan sistem menampilkan    
+Kendaraan Motor Revo selesai mengisi BBM
+<br><br>
+
+<img width="333" height="270" alt="image" src="https://github.com/user-attachments/assets/d8819425-4723-4cda-8442-82441461e2ad" /><br>
+Lalu saya menginputkan atau memilih lagi pilihan 4, dan sistem menampilkan      
+Daftar Antrian kendaraan:
+- Motor Vario
+- Motor Supra-X
+<br><br>
+
+<img width="429" height="188" alt="image" src="https://github.com/user-attachments/assets/ba2272f1-bf55-4ca5-a884-1d57f5aeb1ed" /><br>
+Lalu saya menginputkan atau memilih lagi pilihan 2, dan sistem menampilkan      
+Kendaraan Motor Vario selesai mengisi BBM
+<br><br>
+
+<img width="335" height="236" alt="image" src="https://github.com/user-attachments/assets/1cf3a4d4-6dc2-42d3-8147-b6de80c917a5" /><br>
+Lalu saya menginputkan atau memilih lagi pilihan 4, dan sistem menampilkan      
+Daftar Antrian kendaraan:
+- Motor Supra-X
+<br><br>
+
+<img width="438" height="204" alt="image" src="https://github.com/user-attachments/assets/902f7b7f-02d0-4468-b2a1-b61d69fea967" /><br>
+Lalu saya menginputkan atau memilih lagi pilihan 2, dan sistem menampilkan      
+Kendaraan Motor Supra-X selesai mengisi BBM
+<br><br>
+
+<img width="295" height="199" alt="image" src="https://github.com/user-attachments/assets/df82da4f-6db0-48a1-b5e6-466853ade643" /><br>
+Lalu saya menginputkan atau memilih lagi pilihan 2, dan sistem menampilkan      
+Antrian SPBU kosong
+<br><br>
+
+<img width="321" height="187" alt="image" src="https://github.com/user-attachments/assets/b2bacfc3-45cf-49b1-b28c-675b619164c7" /><br>
+Lalu saya menginputkan atau memilih lagi pilihan 5, dan sistem menampilkan      
+Program selesai  
 
 
 
 ## Link Video Presentasi YouTube
-
+https://youtu.be/kSaW1G8YpRA
