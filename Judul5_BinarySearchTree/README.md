@@ -13,11 +13,10 @@ Program juga menggunakan exception handling untuk menangani input yang tidak val
 
 
 # Source Code
-<img width="1524" height="4662" alt="source code TA5" src="https://github.com/user-attachments/assets/d98e0d50-1be3-43fd-80f4-9042a88357c1" />
+<img width="1524" height="4662" alt="source code TA5 terbaru" src="https://github.com/user-attachments/assets/3c616915-ef51-423c-a5d3-66d5ca71718a" />
 
 
 # Penjelasan Source Code
-
 class Node:  
 Membuat class Node untuk menyimpan data kursi pada Binary Search Tree.
 
@@ -96,9 +95,11 @@ if root.nomor_kursi == nomor_kursi:
 Jika ditemukan maka mengembalikan True.
 
 
-if nomor_kursi < root.nomor_kursi:  
-Cari ke subtree kiri.
+if nomor_kursi < root.nomor_kursi:    
+Jika nomor kursi lebih kecil 
 
+return self.search_node(root.left, nomor_kursi)    
+Cari di subtree kiri.
 
 return self.search_node(root.right, nomor_kursi)   
 Cari ke subtree kanan.
@@ -339,11 +340,62 @@ Menjalankan fungsi utama main().
  
 
 # Output Program
-
+<img width="289" height="798" alt="image" src="https://github.com/user-attachments/assets/646b3025-05b6-4247-9ed8-29cd31287863" /><br><br>
+<img width="302" height="788" alt="image" src="https://github.com/user-attachments/assets/8928d54d-c752-442d-a120-66d4ea83d7ce" /><br><br>
+<img width="296" height="790" alt="image" src="https://github.com/user-attachments/assets/d6e477b9-003c-4fa5-963a-1df0744e9408" /><br><br>
+<img width="454" height="732" alt="image" src="https://github.com/user-attachments/assets/8e41e8ae-f5b8-4bd6-a755-81aa840876c7" /><br><br>
+<img width="300" height="775" alt="image" src="https://github.com/user-attachments/assets/3816a2da-f2bf-4006-b52c-aa1041355070" /><br><br>
+<img width="284" height="495" alt="image" src="https://github.com/user-attachments/assets/2425b8b3-1952-4f5f-b454-040e6293dd5a" /><br><br>
 
 # Penjelasan Output
+<img width="289" height="798" alt="Screenshot 2026-05-25 210730" src="https://github.com/user-attachments/assets/f33d5935-1c4b-417f-a295-630e88af8e04" /><br><br>
+Pada saat kode dijalankan muncul  
+=== SISTEM KURSI BIOSKOP ===  
+1. Pesan Kursi  
+2. Cari Kursi  
+3. Tampilkan Kursi Terurut  
+4. Jumlah Kursi Terisi  
+5. Kursi Pertama  
+6. Kursi Terakhir   
+7. Keluar  
+Pilih menu:...
 
+Saya memilih menu 1. Pesan Kursi, untuk memesan kursi bioskop satu persatu.    
+Kursi yang dipesan adalah:    
+- A5
+- A2
+- B3  
+Setelah masing-masing nomor kursi dimasukkan, program menampilkan kursi tersebut berhasil   dipesan.  
+
+<img width="302" height="788" alt="Screenshot 2026-05-25 210828" src="https://github.com/user-attachments/assets/ec45bf6f-49ed-444b-8c89-d8b755b83334" /><br><br>
+lalu saya kembali memilih menu 1. Pesan Kursi,  untuk menambahkan kursi baru.   
+Kursi yang dipesan adalah:    
+- A1
+- B5
+- G7
+
+<img width="296" height="790" alt="Screenshot 2026-05-25 210917" src="https://github.com/user-attachments/assets/0c3d31ab-a245-4304-82cb-3f539c1dbd48" /><br><br>
+lalu saya masih menggunakan menu 1. Pesan Kursi, untuk melakukan pemesanan kursi.  
+Kursi yang dipesan adalah:  
+- B2
+- G8
+- G3
+
+<img width="454" height="732" alt="Screenshot 2026-05-25 210949" src="https://github.com/user-attachments/assets/9fb406e9-be29-418f-b25b-0d73e5cc181f" /><br><br>
+Lalu saya memilih beberapa menu untuk melihat data kursi yang sudah dipesan.
+Pertama, memilih menu 3. Tampilkan Kursi Terurut. Program menampilkan daftar kursi yang sudah dipesan dalam kondisi sudah terurut (A1 A2 A5 B2 B3 B5 G3 G7 G8). Lalu saya memilih menu 4. Jumlah Kursi Terisi. Program menampilkan jumlah total kursi yang sudah dipesan adalah 9. Lalu saya memilih menu 5. Kursi Pertama. Program menampilkan kursi pertama dari daftar kursi yang sudah terurut A1.
+
+<img width="300" height="775" alt="Screenshot 2026-05-25 211021" src="https://github.com/user-attachments/assets/865cf5e4-9e1b-4528-8af5-21212879aea7" /><br><br>
+Lalu saya memilih menu 6. Kursi Terakhir. Program menampilkan kursi terakhir dari daftar kursi yang sudah terurut yaitu G8.
+Setelah itu, saya memilih menu 2. Cari Kursi untuk mengecek status kursi.  
+Kursi yang dicari adalah:  
+- A1
+- A2  
+Karena kedua kursi tersebut sudah pernah dipesan, program menampilkan bahwa kursi sudah terisi.  
+
+<img width="284" height="495" alt="Screenshot 2026-05-25 211049" src="https://github.com/user-attachments/assets/f197fb5c-100f-4191-9a28-dc1c8e8a69e6" /><br><br>
+Lalu saya memilih menu 2. Cari Kursi untuk mencari kursi A3. Lalu program menampilkan Kursi A3 masih kosong. Lalu saya memilih menu 7. Keluar dan program menampilkan Program selesai.  
 
 
 ## Link Video Presentasi YouTube
-https://youtu.be/ISI_LINK_VIDEO_KAMU
+https://youtu.be/YQ8EjVkStic
