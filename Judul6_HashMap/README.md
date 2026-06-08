@@ -5,7 +5,6 @@
 **Program Sistem Parkir Menggunakan Hash Table dengan Linear Probing**
 
 ## Deskripsi Singkat
-
 Program ini dibuat untuk mengelola data kendaraan yang masuk dan keluar dari area parkir menggunakan struktur data Hash Table. Setiap kendaraan memiliki nomor tiket sebagai key dan nomor polisi sebagai value.
 
 Untuk mengatasi collision (dua data memiliki indeks hash yang sama), program menggunakan metode Linear Probing. Jika slot yang dituju sudah terisi, maka sistem akan mencari slot berikutnya secara berurutan hingga menemukan slot kosong.
@@ -21,9 +20,7 @@ Metode Hash Table dipilih karena memiliki proses pencarian dan penyimpanan data 
 
 
 # Source Code
-
-<img width="1662" height="4434" alt="TA judul 6 source code" src="https://github.com/user-attachments/assets/f61023e8-a32a-4174-802c-f948e5fa592f" />
-
+<img width="1648" height="3750" alt="Ta 6" src="https://github.com/user-attachments/assets/b0661234-960c-4a4e-b6cd-10936d23c641" />
 
 
 # Penjelasan Source Code
@@ -254,7 +251,6 @@ Menjalankan fungsi utama program.
 
 
 # Output Program
-
 <img width="377" height="755" alt="image" src="https://github.com/user-attachments/assets/a5f06e87-c760-4a73-be52-173d2db600d0" />
 
 
