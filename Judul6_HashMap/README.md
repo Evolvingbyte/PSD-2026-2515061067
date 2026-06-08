@@ -43,11 +43,8 @@ Status slot pernah digunakan tetapi kendaraan sudah keluar.
 class Entry:  
 Membuat class untuk menyimpan data pada setiap slot hash table.  
 
-def **init**(self):  
+def init(self):  
 Constructor yang akan dijalankan ketika objek Entry dibuat.  
-
-self.key = None   
-Menyimpan key data. Pada program ini tidak digunakan secara langsung.   
 
 self.nomor_polisi = None  
 Menyimpan nomor polisi kendaraan.  
@@ -262,48 +259,6 @@ Menjalankan fungsi utama program.
 
 
 # Penjelasan Output
-# Output Program
-
-```text
-Kendaraan BE1234AA parkir di slot 1
-Kendaraan BE5678BB parkir di slot 2
-Kendaraan BE9012CC parkir di slot 3
-Kendaraan BE3456DD parkir di slot 4
-
-=== STATUS PARKIRAN ===
-Slot 0: Kosong
-Slot 1: BE1234AA (Tiket 1)
-Slot 2: BE5678BB (Tiket 11)
-Slot 3: BE9012CC (Tiket 21)
-Slot 4: BE3456DD (Tiket 2)
-Slot 5: Kosong
-Slot 6: Kosong
-Slot 7: Kosong
-Slot 8: Kosong
-Slot 9: Kosong
-
-Mencari tiket nomor 11...
-Kendaraan ditemukan di slot 2
-
-Kendaraan keluar:
-Kendaraan BE5678BB keluar dari slot 2
-
-=== STATUS PARKIRAN ===
-Slot 0: Kosong
-Slot 1: BE1234AA (Tiket 1)
-Slot 2: Pernah Terisi
-Slot 3: BE9012CC (Tiket 21)
-Slot 4: BE3456DD (Tiket 2)
-Slot 5: Kosong
-Slot 6: Kosong
-Slot 7: Kosong
-Slot 8: Kosong
-Slot 9: Kosong
-```
-
-# Penjelasan Output
-
-
 Kendaraan pertama memiliki nomor polisi BE1234AA dengan nomor tiket 1. Hasil hash dari 1 % 10 adalah 1 sehingga kendaraan ditempatkan pada slot 1.
 
 Selanjutnya kendaraan kedua memiliki nomor polisi BE5678BB dengan nomor tiket 11. Hasil hash dari 11 % 10 juga menghasilkan indeks 1. Karena slot 1 sudah terisi oleh kendaraan pertama, terjadi collision. Program menggunakan metode Linear Probing untuk mencari slot kosong berikutnya dan menemukan slot 2. Oleh karena itu kendaraan kedua ditempatkan pada slot 2.
@@ -325,4 +280,5 @@ Terakhir, program kembali menampilkan kondisi parkiran setelah kendaraan keluar.
 
 
 ## Link Video Presentasi YouTube
+https://youtu.be/2t9PB8UlVt0
 
